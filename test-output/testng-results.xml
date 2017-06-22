@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22506" started-at="2017-05-19T06:22:54Z" finished-at="2017-05-19T06:23:17Z">
+  <suite name="Default suite" duration-ms="60238" started-at="2017-06-17T12:25:15Z" finished-at="2017-06-17T12:26:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22506" started-at="2017-05-19T06:22:54Z" finished-at="2017-05-19T06:23:17Z">
-      <class name="Cases.handleprintpopup">
-        <test-method status="PASS" signature="start()[pri:0, instance:Cases.handleprintpopup@643b1d11]" name="start" is-config="true" duration-ms="7110" started-at="2017-05-19T11:52:54Z" finished-at="2017-05-19T11:53:01Z">
+    <test name="Default test" duration-ms="60238" started-at="2017-06-17T12:25:15Z" finished-at="2017-06-17T12:26:15Z">
+      <class name="Cases.GridTest">
+        <test-method status="PASS" signature="start()[pri:0, instance:Cases.GridTest@36d4b5c]" name="start" is-config="true" duration-ms="11033" started-at="2017-06-17T17:55:15Z" finished-at="2017-06-17T17:55:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="printpop()[pri:0, instance:Cases.handleprintpopup@643b1d11]" name="printpop" duration-ms="15364" started-at="2017-05-19T11:53:01Z" finished-at="2017-05-19T11:53:17Z">
+        <test-method status="PASS" signature="TC_002()[pri:0, instance:Cases.GridTest@36d4b5c]" name="TC_002" duration-ms="47728" started-at="2017-06-17T17:55:26Z" finished-at="2017-06-17T17:56:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printpop -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:Cases.handleprintpopup@643b1d11]" name="quit" is-config="true" duration-ms="0" started-at="2017-05-19T11:53:17Z" finished-at="2017-05-19T11:53:17Z">
+        </test-method> <!-- TC_002 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Cases.GridTest@36d4b5c]" name="quit" is-config="true" duration-ms="1354" started-at="2017-06-17T17:56:14Z" finished-at="2017-06-17T17:56:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- Cases.handleprintpopup -->
+      </class> <!-- Cases.GridTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

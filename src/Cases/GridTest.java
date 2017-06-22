@@ -34,14 +34,15 @@ public class GridTest {
 		//fd=new FirefoxDriver();
 		baseurl= "http://monsterville.arcsqc.com/";
 		//nodeurl="http://192.168.0.57:5566/wd/hub"; VM
-		nodeurl="http://192.168.0.138:5566/wd/hub"; //IP of node
+		nodeurl="http://192.168.0.159:5566/wd/hub"; //IP of node
+		System.setProperty("webdriver.gecko.driver", "D:\\Softwares\\AutomationTesting\\Drivers\\geckodriver-v0.16.1-win64\\geckodriver.exe");
 		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-		capabilities.setBrowserName("chrome");
-		capabilities.setPlatform(Platform.VISTA);
+		capabilities.setBrowserName("firefox");
+		capabilities.setPlatform(Platform.WINDOWS);
 		fd= new RemoteWebDriver(new URL(nodeurl), capabilities);
 	}
 	
-	//Code to find the broken images on web page.
+	//Code to find the broken images on web page.y
 	
 	@Test
 	
