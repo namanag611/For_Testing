@@ -32,8 +32,8 @@ public class CheckBrokenImages {
 	public void TC_002() throws InterruptedException
 	{
 		//fd.get("http://monsterville.arcsqc.com/");
-		fd.get("http://info.alliedfireandsecurity.com/topic/fire-alarms-portland");
-		Thread.sleep(5000);
+		fd.get("http://www.google.com");
+		Thread.sleep(10000);
 		//fd.get("file:///C:/Users/namanagrawal/Desktop/test.html");
 		try
 		{
